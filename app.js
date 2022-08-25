@@ -1,28 +1,10 @@
-const {readFile, writeFile} = require('fs');
+//*npm
 
-readFile('./content/first.txt', 'utf8',(err,result)=>{
-    if(err){
-        console.log(err);
-    }else{
-        console.log(result.toString());
-        
-        const first = result;
-        readFile('./content/second.txt', 'utf8',(err,result)=>{
-            if(err){
-                console.log(err);
-            }else{
-            console.log(result.toString());
 
-            const second = result;
+const _ = require('lodash');
 
-                writefile(`.content/result-async',
-                'here is the async result : ${first}, ${second}`,
-                {flag:'a'},
-                )
+const items = [1,[2,[3,[4]]]]
 
-        }
-        
-    })
-}
-})
+const newItems = _.flattenDeep(items)
 
+console.log(newItems);

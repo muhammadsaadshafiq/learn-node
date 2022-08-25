@@ -1,0 +1,24 @@
+{
+  "name": "learn-node",
+  "version": "1.0.0",
+  "description": "Learning Express and Node",
+  "main": "01-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadsaadshafiq/learn-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammadsaadshafiq/learn-node/issues"
+  },
+  "homepage": "https://github.com/muhammadsaadshafiq/learn-node#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "lodash": "^4.17.21"
+  }
+}
